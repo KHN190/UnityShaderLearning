@@ -29,9 +29,6 @@ Shader "Custom/HalfLambert"
         fixed3 worldNormal = normalize(mul(v.normal, (float3x3) unity_WorldToObject));
         fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
         
-        //fixed3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
-        //fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(worldPos));
-        
         fixed4 halfLambert = saturate(dot(worldNormal, worldLight)) * 0.7 + 0.3;
         
         fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
