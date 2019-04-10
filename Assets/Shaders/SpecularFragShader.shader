@@ -33,7 +33,7 @@ Shader "Custom/SpecularFragShader"
         v2f o;
         
         fixed3 worldNormal = normalize(mul(v.normal, (float3x3) unity_WorldToObject));
-        fixed3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;;
+        fixed3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
         
         o.pos = UnityObjectToClipPos(v.vertex);
         o.worldNormal = worldNormal;
