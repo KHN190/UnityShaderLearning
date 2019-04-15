@@ -1,4 +1,4 @@
-﻿Shader "NormalMapWorldSpaceShader" {
+﻿Shader "Custom/NormalMapWorldSpaceShader" {
     Properties {
         _Color ("Color Tint", Color) = (1, 1, 1, 1)
         _MainTex ("Main Tex", 2D) = "white" {}
