@@ -12,5 +12,7 @@
 	* [Cubemap](./Assets/Shaders/ReflectionShader.shader), while [dynamic cubemap](https://docs.unity3d.com/Manual/class-Cubemap.html) can be generated using a temporary camera
 * Bloom ✅
 	* [Bloom Shader](./Assets/Shaders/BloomShader.shader)
+	![bloom effect](./Images/Bloom.png)
 * Motion Blur
+* Fog
 * Dithering
