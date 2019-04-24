@@ -16,3 +16,8 @@
 * Motion Blur
 * Fog
 * Dithering
+
+# References
+
+* Read more about [built-in shader variables](https://docs.unity3d.com/Manual/SL-UnityShaderVariables.html). Also this [wiki](https://github.com/UnityCommunity/UnityLibrary/wiki/Built-in-Shader-Variables).
+* Understanding World/View/Projection [transformations](https://www.3dgep.com/understanding-the-view-matrix/).
